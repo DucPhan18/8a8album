@@ -1,0 +1,85 @@
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-width: 1px 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    color: #f2f2f2;
+    text-align: center;
+    padding-left: 92px;
+    padding-right: 92px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a:hover {
+    background: wheat;
+    color: black;
+}
+
+
+html {
+    background-color: wheat;
+}
+
+video {
+    padding: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    color: brown;
+    text-align: center;
+    font-size: 25px;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    margin: 0px;
+}
+
+.btn {
+    background-color: whitesmoke;
+    border: none;
+    color: black;
+    padding: 10px 60px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn:hover {
+    background-color: #EBE7B1;
+}
+
+.dow {
+    max-height: max-content;
+    max-width: max-content;
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

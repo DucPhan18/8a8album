@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Web lưu trữ ảnh video 8a8</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="../image/logo web.jpg" type="image/x-icon" style="width:48px;height:48px;">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/infor.css">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <a href="/html/album.html"> <i class="fa fa-file-image-o"></i> Ảnh </a>
+        <a href="/html/video.html"> <i class="fa fa-file-video-o"></i> Video </a>
+        <a href="/html/infor.html"><i class="fa fa-info-circle"></i> Thông tin </a>
+    </div>
+    <br>
+    <br>
+    <div class="wrapper">
+        <h2>Hình thức truy cập: Đường liên kết</h2>
+        <h2>Dung lượng web : 95,4 MB (100.134.912 byte)</h2>
+        <h2>Tình trạng web: Ổn định </h2>
+        <h2>Số lượng ảnh : 43</h2>
+        <h2>Số lượng video : 6</h2> 
+        <h2>Mã nguồn web:</h2>
+        <h3>- Phần HTML:</h3>
+        <p>+ index.html</p>
+        <embed src="..//embed/index.txt">
+        <p>+ album.html</p>
+        <embed src="../embed/album.txt">    
+        <p>+ slidemode.html</p>
+        <embed src="..//embed/slidemode.txt">
+        <p>+ video.html</p>
+        <embed src="..//embed/video.txt">
+        <p>+ infor.html</p>
+        <embed src="..//embed/infor.txt">
+        <h2>- Phần CSS:</h2>
+        <p>+ index.css</p>
+        <embed src="../css/index.css">
+        <p>+ album.css</p>
+        <embed src="..//css/album.css">
+        <p>+ slidemode.css</p>
+        <embed src="..//css/slidemode.css">
+        <p>+ video.css</p>
+        <embed src="..//css/video.css">
+        <p>+ infor.css</p>
+        <embed src="..//css/infor.css">
+
+    <script>
+        function hamDropdown() {
+            document.querySelector(".noidung_dropdown").classList.toggle("hienThi");
+        }
+        window.onclick = function (e) {
+            if (!e.target.matches('.nut_dropdown')) {
+                var noiDungDropdown = document.querySelector(".noidung_dropdown");
+                if (noiDungDropdown.classList.contains('hienThi')) {
+                    noiDungDropdown.classList.remove('hienThi');
+                }
+            }
+        }
+    </script>
+
+</body>
+
+</html>
